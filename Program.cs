@@ -127,9 +127,20 @@ namespace EjemplosCSharp
             }
 
             Console.WriteLine($"Product: {size} {color} {type}");*/
-
+/*
             //FizzBuzz
             //https://learn.microsoft.com/es-es/training/modules/csharp-for/3-challenge
+            for (int i = 1; i < 101; i++)
+            {
+                if ((i % 3 == 0) && (i % 5 == 0))
+                    Console.WriteLine($"{i} - FizzBuzz");
+                else if (i % 3 == 0)
+                    Console.WriteLine($"{i} - Fizz");
+                else if (i % 5 == 0)
+                    Console.WriteLine($"{i} - Buzz");
+                else
+                    Console.WriteLine($"{i}");
+            }*/
 
 /*
             //Tirar dados hasta que se agote la vida del Héroe o del Monstruo (juego de rol)
